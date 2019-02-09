@@ -121,6 +121,6 @@ function webAuth() {
   });
   function redirectToLoginSuccessPage(){
     if (signInSuccess == "true") {
-        window.location.replace( "../project-1/continueAs.html");
+        window.location.replace( "../project-1-auth/continueAs.html");
        }
   }
